@@ -7,13 +7,13 @@ description: Simple client that connects to a BoringProxy-server. A way to give 
 codenotary: notary@home-assistant.io
 advanced: true
 arch:
-  - armv7
+  - amd64
 host_network: true
 options:
   server: myserver.io
   user: admin
   token: 12345678abcdefgh
-  clientid: pi
+  clientid: ha
   timeout: 10000h
 schema:
   server: str
